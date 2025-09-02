@@ -1,9 +1,9 @@
 {
   "name": "json-server-api",
   "version": "1.0.0",
-  "scripts": {
-    "start": "json-server --watch contacts.json --port $PORT"
-  },
+"scripts": {
+  "start": "json-server --host 0.0.0.0 --watch contacts.json --port $PORT"
+},
   "dependencies": {
     "json-server": "^0.17.4"
   },
